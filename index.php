@@ -16,6 +16,18 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,10 +47,9 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-lg-between">
-
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">ErickSmith<span> <small>Production</small></span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.php" class="logo me-auto me-lg-0"><img src="assets/img/white-ericsmith-logo.png" alt="" class="img-fluid"></a>
+      <h1 class="logo me-auto"><img src="" class=""><a href="index.php">ErickSmith<span><small>Production</small></span></a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
@@ -222,67 +233,36 @@
           <!-- <p>Check our Services</p> -->
         </div>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Hospitality Management System</a></h4>
-              <p>Streamline your hotel or restaurant operations with our comprehensive Hospitality Management System. 
-                From reservation management to guest services, we've got you covered.</p>
-            </div>
-          </div>
+        <div id="accordion" class="center">
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Business Solution System</a></h4>
-              <p>Empower your business with our Business Solution System, designed to optimize your workflows and enhance productivity across all departments.</p>
-            
+          <div class="card">
+            <div class="card-header">
+              <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                BUSINESS SOLUTIONS
+              </a>
             </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Web Design & Development</a></h4>
-              <p>Elevate your online presence with our expert web design and development services. From responsive design to intuitive user experience, we create websites that leave a lasting impression.</p>
-             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Practical & Academical Internship</a></h4>
-              <p>Gain hands-on experience and valuable skills through our Practical & Academical Internship program. Elevate your career prospects and unlock new opportunities.</p>
-              
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">ICT Training</a></h4>
-              <p>Stay ahead in the digital age with our comprehensive ICT Training programs. Equip yourself with the latest skills and knowledge to thrive in today's tech-driven world.</p>
-             
-            </div>
-          </div>
-        
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+              <div class="card-body">
+                  
+                <!-- BUSINESS SOLUTIONS -->
+                  
+                    <!-- DIGITAL MARKETING -->
+              <div class="row">
           <!-- Network Solution -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Network Solution</a></h4>
-              <p>Ensure seamless connectivity and optimal performance with our tailored Network Solutions. From network design to implementation, we've got you covered.</p>
+              <div class="icon"><i class="bx bxs-business"></i></div>
+              <h4><a href="">Business Solution</a></h4>
+              <p>Empower your business with our Business Solution System, designed to optimize your workflows and enhance productivity across all departments.</p>
               
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-             <h4><a href="">Digital Marketing</a></h4>
-              <p>Boost your online presence and reach your target audience with our comprehensive Digital Marketing services. From SEO to social media, we'll help you stand out in the digital landscape.</p>
+              <div class="icon"><i class="bx bxs-cloud"></i></div>
+             <h4><a href="">IT Business Consulting</a></h4>
+              <p>Gain strategic insights and expert guidance to optimize your IT infrastructure and drive business growth. Our IT Business Consulting services are tailored to your unique needs and objectives.</p>
               
             </div>
           </div>
@@ -290,52 +270,185 @@
           <!-- Technical Support -->
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <div class="icon"><i class="bx bxs-box"></i></div>
+              <h4><a href="">Business in a Box</a></h4>
+              <p>Get your business up and running quickly with our Business in a Box System. From software solutions to training and support, we provide everything you need to start and grow your business.</p>
+              
+            </div>
+          </div>
+
+              </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                TECHNOLOGY SOLUTIONS
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                
+                  <!-- DIGITAL MARKETING -->
+              <div class="row">
+          <!-- Network Solution -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Web Design</a></h4>
+              <p>Elevate your online presence with our expert web design and development services. From responsive design to intuitive user experience, we create websites that leave a lasting impression.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-network-chart"></i></div>
+             <h4><a href="">Network Solutions</a></h4>
+              <p>Ensure seamless connectivity and optimal performance with our tailored Network Solutions. From network design to implementation, we've got you covered.</p>
+              
+            </div>
+          </div>
+
+          <!-- Technical Support -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-wrench"></i></div>
               <h4><a href="">Technical Support</a></h4>
               <p>Ensure smooth operations and minimize downtime with our expert Technical Support services. From troubleshooting to maintenance, we're here to keep your systems running efficiently.</p>
               
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+
+          <!-- Technical Support -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">POS System Solutions</a></h4>
+              <div class="icon"><i class="bx bx-rocket"></i></div>
+              <h4><a href="">IT Professional Services</a></h4>
+              <p>Access top-notch IT talent and expertise to support your business initiatives and projects. Our IT Professional Services cover a wide range of specialties to meet your specific requirements.</p>
+              
+            </div>
+          </div>
+
+              </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                HOSPITALITY SOLUTIONS
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+
+                  <!-- DIGITAL MARKETING -->
+              <div class="row">
+          <!-- Network Solution -->
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-hotel"></i></div>
+              <h4><a href="">Hospitality Management Systems</a></h4>
+              <p>Streamline your hotel or restaurant operations with our comprehensive Hospitality Management System. From reservation management to guest services, we've got you covered.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-shopping-bag"></i></div>
+             <h4><a href="">POS System Solutions</a></h4>
               <p>Streamline your point-of-sale operations and enhance customer experience with our POS System Solutions. From inventory management to sales reporting, we've got you covered.</p>
               
             </div>
           </div>
-        
-          <!-- IT Business Consulting -->
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">IT Business Consulting</a></h4>
-              <p>Gain strategic insights and expert guidance to optimize your IT infrastructure and drive business growth. Our IT Business Consulting services are tailored to your unique needs and objectives.</p>
-               
+
+              </div>
+
+              </div>
             </div>
           </div>
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+                DIGITAL MARKETING
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                <!-- DIGITAL MARKETING -->
+              <div class="row">
         
-          <!-- IT Professional Services -->
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">IT Professional Services</a></h4>
-              <p>Access top-notch IT talent and expertise to support your business initiatives and projects. Our IT Professional Services cover a wide range of specialties to meet your specific requirements.</p>
-             
+             <h4><a href="">Digital Marketing</a></h4>
+              <p>Boost your online presence and reach your target audience with our comprehensive Digital Marketing services. From SEO to social media, we'll help you stand out in the digital landscape.</p>
+              
             </div>
           </div>
-        
-          <!-- Business in a Box System -->
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+
+          <!-- Technical Support -->
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Business in a Box System</a></h4>
-              <p>Get your business up and running quickly with our Business in a Box System. From software solutions to training and support, we provide everything you need to start and grow your business.</p>
-             
+              <div class="icon"><i class="bx bx-bar-chart-square"></i></div>
+              <h4><a href="">Social Media Management</a></h4>
+              <p>Our team of seasoned professionals will handle every aspect of your social media presence, from content creation and scheduling to community engagement and performance tracking. With a deep understanding of platform algorithms and audience behavior, we ensure that your brand's voice resonates authentically with your target audience.</p>
+              
             </div>
+          </div>
+              </div>
+              </div>
             </div>
 
+          
+
+          <div class="card">
+            <div class="card-header">
+              <a class="collapsed card-link" data-toggle="collapse" href="#collapseFive">
+                TRAINING CENTER
+              </a>
+            </div>
+            <div id="collapseFive" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                
+        <div class="row">
+          <!-- Network Solution -->
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-book-open"></i></div>
+              <h4><a href="">ICT Training</a></h4>
+              <p>Ensure seamless connectivity and optimal performance with our tailored Network Solutions. From network design to implementation, we've got you covered.</p>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-group"></i></div>
+             <h4><a href="">Practical & Academical Internship</a></h4>
+              <p>Gain hands-on experience and valuable skills through our Practical & Academical Internship program. Elevate your career prospects and unlock new opportunities.</p>
+              
+            </div>
+          </div>
+         </div>
+
+              </div>
+              </div>
+
+          </div>
+
         </div>
+        <!-- END OF COLLAPSE ACCORDION -->
+
+        
 
       </div>
     </section>
@@ -349,7 +462,7 @@
           <h3>Ready to Take Your Business to the Next Level?</h3>
           <p>Unlock the potential of your business with our innovative solutions and expert guidance. Contact us today to learn more!</p>
           <a class="cta-btn" href="tel:+250788962956">Call Us Now</a>
-          <p>Or</p>
+          <p class="text-center align-items-stretch mt-4">Or</p>
           <a class="cta-btn" href="https://api.whatsapp.com/send?phone=+250788962956" target="_blank">WhatsApp Us</a>
         </div> 
       </div>
@@ -852,17 +965,18 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Business Solution</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Technology Solutions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Hospitality Solutions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Digital Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Training Center</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Rate Us</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Subscribe</h4>
+            <p>Stay up-to-date with the latest news, updates, and special offers from ERICKSMITH Productions.</p>
+            <p>Subscribe to our newsletter today!</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -875,15 +989,8 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>ERICKSMITH Production</span></strong>. All Rights Reserved
+         <p>&copy; Copyright <?php echo date("Y")." "; ?><strong><span>ERICKSMITH Production</span></strong>. All Rights Reserved
       </div>
-      <!-- <div class="credits"> -->
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        <!-- Designed by <a href="#">ErickSmith production</a> -->
-     <!-- </div> -->
       
     </div>
   </footer><!-- End Footer -->
